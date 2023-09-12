@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url(Counting-Sheep.jpeg);
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+.main .container {
+  margin-top: 13em;
+  color: #e3dac9;
+}
+.main .container h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.main .container h2 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.main .container button {
+  border: 2px solid black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: black;
+  font-size: 1em;
+  font-weight: 700;
+  width: 10em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+.main .container #increment-btn {
+  background: #f3e5ab;
+  cursor: pointer;
+}
+.main .container #save-btn {
+  background: #F8F8FF;
+  cursor: pointer;
+}
+.main .container #save-el {
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+}/*# sourceMappingURL=index.css.map */
